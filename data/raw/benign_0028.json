@@ -1,0 +1,47 @@
+{
+  "events": [
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\Users\\Alice\\Documents\\report.docx"
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Fonts\\arial.ttf"
+      }
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\Software\\Microsoft"
+      }
+    },
+    {
+      "api": "GetProcAddress",
+      "args": {
+        "module": "kernel32.dll",
+        "symbol": "Sleep"
+      }
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "WriteFile",
+      "args": {
+        "path": "C:\\Users\\Alice\\Documents\\notes.txt"
+      }
+    },
+    {
+      "api": "CloseHandle",
+      "args": {
+        "h": "0x100"
+      }
+    }
+  ]
+}
