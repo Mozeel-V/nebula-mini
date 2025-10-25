@@ -136,6 +136,6 @@ Computer Science and Engineering Undergrad 💻
 
 Indian Institute of Technology Kharagpur 🎓
 
-[Email](mailto: vanwani.mozeel@gmail.com)
+Email 📧: vanwani.mozeel@gmail.com
 
 
