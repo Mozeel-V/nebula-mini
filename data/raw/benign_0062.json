@@ -1,0 +1,1051 @@
+{
+  "events": [
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f0.tmp"
+      }
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f5.tmp"
+      }
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f8.tmp"
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "CloseHandle"
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f12.tmp"
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f13.tmp"
+      }
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f16.tmp"
+      }
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f18.tmp"
+      }
+    },
+    {
+      "api": "CloseHandle"
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "CloseHandle"
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "CloseHandle"
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f33.tmp"
+      }
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f35.tmp"
+      }
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f37.tmp"
+      }
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "CloseHandle"
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "CloseHandle"
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "CloseHandle"
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f60.tmp"
+      }
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "CloseHandle"
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f66.tmp"
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "CloseHandle"
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "CloseHandle"
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "CloseHandle"
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f92.tmp"
+      }
+    },
+    {
+      "api": "CloseHandle"
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "CloseHandle"
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "CloseHandle"
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "CloseHandle"
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f104.tmp"
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "CloseHandle"
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "CloseHandle"
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "CloseHandle"
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "CloseHandle"
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "CloseHandle"
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "CloseHandle"
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f140.tmp"
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f141.tmp"
+      }
+    },
+    {
+      "api": "CloseHandle"
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f147.tmp"
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f148.tmp"
+      }
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "CloseHandle"
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f160.tmp"
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f161.tmp"
+      }
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f172.tmp"
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f173.tmp"
+      }
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f176.tmp"
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f177.tmp"
+      }
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f181.tmp"
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f182.tmp"
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f183.tmp"
+      }
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f184.tmp"
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "connect",
+      "args": {
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "CloseHandle"
+    },
+    {
+      "api": "CloseHandle"
+    },
+    {
+      "api": "GetTickCount"
+    },
+    {
+      "api": "ReadFile",
+      "args": {
+        "path": "C:\\Windows\\Temp\\f195.tmp"
+      }
+    },
+    {
+      "api": "RegOpenKeyExW",
+      "args": {
+        "path": "HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft"
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    },
+    {
+      "api": "Sleep",
+      "args": {
+        "ms": 100
+      }
+    },
+    {
+      "api": "CreateFileW",
+      "args": {
+        "path": "C:\\\\Users\\\\Alice\\\\Documents\\\\doc.txt"
+      }
+    }
+  ]
+}

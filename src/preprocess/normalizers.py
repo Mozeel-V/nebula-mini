@@ -6,7 +6,7 @@ HASH_SHA256 = re.compile(r"\b[a-fA-F0-9]{64}\b")
 
 IPV4 = re.compile(r"\b(?:(?:25[0-5]|2[0-4]\d|[01]?\d?\d)(?:\.|$)){4}\b")
 IPV6 = re.compile(r"\b(?:[A-Fa-f0-9]{1,4}:){1,7}[A-Fa-f0-9]{1,4}\b")
-DOMAIN = re.compile(r"\b([a-zA-Z0-9-]+\.)+(com|net|org|info|io|co|ru|in|uk|edu|biz)\b", re.IGNORECASE)
+DOMAIN = re.compile(r"\b([a-zA-Z0-9-]+\.)+(com|net|org|info|io|co|ru|in|uk|edu|biz|ai|us)\b", re.IGNORECASE)
 
 DRIVE = re.compile(r"^[A-Za-z]:\\")
 USERSEG = re.compile(r"\\Users\\[^\\]+\\", re.IGNORECASE)
@@ -41,8 +41,8 @@ def norm_ips_domains_paths(s: str) -> str:
     s = DOMAIN.sub("<domain>", s)
 
     # Windows drive and user
-    s = DRIVE.sub("<drive>\\", s)
-    s = USERSEG.sub("\\Users\\<user>\\", s)
+    s = DRIVE.sub(r"<drive>\\", s)
+    s = USERSEG.sub(r"\\Users\\<user>\\", s)
     return s
 
 def normalize(value: str) -> str:

@@ -1,4 +1,4 @@
-import argparse, os, json, numpy as np, sys
+import argparse, os, json, time, numpy as np, sys
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -17,7 +17,10 @@ class TextDataset(Dataset):
         self.rows = []
         with open(data_file, "r") as f:
             for line in f:
-                i, y, t = line.rstrip("\\n").split("\\t", 2)
+                parts = line.rstrip("\n").split("\t", 2)
+                if len(parts) != 3:
+                    continue  # skipping malformed/blank lines
+                i, y, t = parts
                 self.rows.append((int(i), int(y), t))
         self.id2row = {i: (y, t) for i, y, t in self.rows}
         self.indices = split_indices
@@ -103,6 +106,34 @@ def main():
         val_metrics = eval_epoch(model, val_loader, device)
         print(f"Epoch {epoch} | train_loss={tr_loss:.4f} | val_auc={val_metrics['auc']:.3f} "
               f"| val_f1={val_metrics['f1']:.3f} | TPR@1e-3={val_metrics['tpr_at_1e-3']:.3f}")
+        
+        save_dict = {
+            "epoch": epoch,
+            "model_state": model.state_dict(),
+            "optim_state": opt.state_dict(),
+            "config": {
+                "vocab_size": len(vocab),
+                "d_model": args.d_model,
+                "heads": args.heads,
+                "layers": args.layers,
+                "ff": args.ff,
+                "max_len": args.max_len,
+                "chunk_size": args.chunk_size
+            }
+        }
+
+        last_path = "checkpoints/last.pt"
+        torch.save(save_dict, last_path)
+
+        metrics_record = {
+            "epoch": epoch,
+            "train_loss": tr_loss,
+            "val_metrics": val_metrics,
+            "timestamp": time.time()
+        }
+        with open("checkpoints/last_metrics.json", "w") as mf:
+            json.dump(metrics_record, mf, indent=2)
+
         if val_metrics["auc"] > best_auc:
             best_auc = val_metrics["auc"]
             torch.save({"model": model.state_dict(),
@@ -110,10 +141,34 @@ def main():
                                    "layers": args.layers, "ff": args.ff, "max_len": args.max_len,
                                    "chunk_size": args.chunk_size}},
                        "checkpoints/best.pt")
+            
+            best_record = {
+                "epoch": epoch,
+                "train_loss": tr_loss,
+                "val_metrics": val_metrics,
+                "timestamp": time.time()
+            }
+            with open("checkpoints/best_metrics.json", "w") as bf:
+                json.dump(best_record, bf, indent=2)
+
+    try:
+        torch.save(model, "checkpoints/full_model.pkl")
+    except Exception as e:
+        print("Warning: saving full_model.pkl failed:", e)
+
+    try:
+        scripted = torch.jit.script(model.cpu())
+        scripted.save("checkpoints/model_scripted.pt")
+    except Exception as e:
+        print("Warning: TorchScript save failed:", e)
+        
     ckpt = torch.load("checkpoints/best.pt", map_location=device)
     model.load_state_dict(ckpt["model"])
     test_metrics = eval_epoch(model, test_loader, device)
     print("TEST:", test_metrics)
+
+    with open("checkpoints/test_metrics.json", "w") as f:
+        json.dump(test_metrics, f, indent=2)
 
 if __name__ == "__main__":
     main()
