@@ -1,21 +1,22 @@
-# Nebula Mini Implementation
+# 🌌 Nebula Mini – Adversarial Malware Detection & Robustness Analysis
 
 [![Made with Python](https://img.shields.io/badge/Made%20with-Python-3670A0?logo=python&logoColor=white)](https://www.python.org/)
 [![Trained using PyTorch](https://img.shields.io/badge/Trained%20using-PyTorch-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Status](https://img.shields.io/badge/Build-Active-blue)](https://github.com/Mozeel-V/nebula-mini)
 
-A compact, end-to-end reimplementation inspired by the [Nebula](https://arxiv.org/abs/2310.10664) pipeline for dynamic malware analysis using Transformer architectures.
+A compact, research-oriented, end-to-end reimplementation inspired by the [Nebula](https://arxiv.org/abs/2310.10664) pipeline for dynamic malware analysis using Transformer architectures. Extended with adversarial attack generation, saliency-based interpretability and robustness evaluation.
 
 It uses:
 - JSON sandbox-like logs → domain normalization → text flattening
 - Simple whitespace tokenization (no external BPE dependency)
 - Tiny Transformer encoder (no chunked attention)
 - Binary detection demo (malicious vs benign) on a **toy dataset** that runs without a GPU
-- Adversarial attacks and retraining to test detector robustness
+- Insert, Genetic Algorithm (GA), and Saliency-guided adversarial attacks and retraining to test detector robustness
+- Visualization of attack success metrics
 - Automatic checkpointing, metric logging, and TorchScript export
 
-> Goal: Build a minimal, fully working malware behavior model pipeline that runs locally and supports basic adversarial ML experimentation. 
+> Goal: Build a minimal, fully working malware behavior model pipeline that runs locally and supports adversarial ML experimentation and explainability. 
 
 ## 🧱 How To Run
 
@@ -69,7 +70,21 @@ bash scripts/run_attack_simple.sh
 ```
 → generates `data/processed/adversarial.txt` (benign-padded malware traces)
 
-Step 8: Retrain with adversarial samples
+Step 8: Full evaluation suite (Insert, GA, Saliency attacks)
+```bash
+bash scripts/run_evals.sh
+```
+
+This runs:
+
+- `api_candidates.py` → builds benign API pool
+- `eval_attacks.py` → Insert-based attacks
+- `search_attack.py` → GA/Hill-Climb attacks
+- `saliency_selector.py` + `saliency_attack.py` → saliency-guided mutations
+
+Generates `results/*.json` and final bar chart figures\
+
+Step 9: Retrain with adversarial data
 ```bash
 bash scripts/run_retrain.sh
 ```
@@ -85,8 +100,8 @@ Nebula_Mini/
 │
 ├── data/                       # Directory containing data files 
 │   ├── manifests/splits.json   # train/val/test split indices
-│   ├── processed               # for adversarial samples
-│   └── raw                     # toy dataset (JSON) with `malware_*.json` and `benign_*.json`
+│   ├── processed/              # for adversarial samples
+│   └── raw/                    # toy dataset (JSON) with `malware_*.json` and `benign_*.json`
 │
 ├── src/                        # Source files
 │   ├── preprocess/synth_generator.py   # to generate long traces of activity
@@ -99,17 +114,23 @@ Nebula_Mini/
 │   ├── train/train_supervised.py       # training loop (binary)
 │   ├── attacks/simple_attacks.py       # insertion and replacement attacks
 │   ├── attacks/ga_attack.py            # hill-climb / GA attacks 
+│   ├── attacks/saliency_selector.py    # gradient-based importance
+│   ├── attacks/saliency_attack.py      # saliency-biased adversarial gen
+│   ├── eval/plot_results.py,plot.py    # for plotting the metrics
 │   ├── eval/metrics.py                 # TPR@FPR, AUC, F1                
 │   └── eval/explain.py                 # prints top tokens by attention & gradients (simple)
 │
 ├── scripts/                    # Directory containing bash scripts 
 │   ├── run_attack_simple.sh    # to run the adversarial attacks
+│   ├── run_evals.sh            # to compute and plot evaluation metrics
 │   └── run_retrain.sh          # to retrain the model after the attacks
 │
 ├── checkpoints/                # all model + log artifacts  
+├── figures/                    # ASR bar and ROC plots
 ├── requirements.txt            # required python packages
 └── setup.py                    # enables `pip install -e .`
 ```
+
 ## 📊 Output Example
 
 After a successful training run:

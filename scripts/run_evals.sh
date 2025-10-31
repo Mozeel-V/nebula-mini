@@ -31,8 +31,7 @@ python src/attacks/search_attack.py \
   --vocab "$VOCAB" \
   --api_candidates "$API_JSON" \
   --out "$RESULTS_DIR/ga_results.json" \
-  --iters 25 \
-  --sample_limit 200
+  --iters 25 --candidates 8 --n_replace 6 --sample_limit 200
 
 echo "[4/5] Running Saliency selector + attack..."
 python src/attacks/saliency_selector.py \
@@ -53,10 +52,23 @@ python src/attacks/saliency_attack.py \
   --n_replace 8 \
   --sample_limit 200
 
-echo "[5/5] Plotting ASR bar..."
+echo "INSERT sweep for ASR vs insert_n..."
+for N in 20 50 100 150 200; do
+  python src/attacks/eval_attacks.py \
+    --data_file "$DATA_FILE" --ckpt "$CKPT" --vocab "$VOCAB" \
+    --api_candidates "$API_JSON" --out "$RESULTS_DIR/insert_n${N}.json" \
+    --strategy insert --insert_n $N --sample_limit 200
+done
+
+echo "[5/5] Plotting firgures..."
 python src/eval/plot_results.py \
   --inputs "$RESULTS_DIR/insert_results.json" "$RESULTS_DIR/ga_results.json" "$RESULTS_DIR/saliency_results.json" \
   --labels Insert GA Saliency \
   --out "$FIG_DIR/asr_bar.png"
+
+python src/eval/plot.py \
+  --results "$RESULTS_DIR/insert_n100.json" "$RESULTS_DIR/ga_results.json" "$RESULTS_DIR/saliency_results.json" \
+  --insert_sweep "$RESULTS_DIR"/insert_n*.json \
+  --out_dir "$FIG_DIR"
 
 echo "Done. Figures in $FIG_DIR, results in $RESULTS_DIR"
