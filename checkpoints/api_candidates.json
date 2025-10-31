@@ -1,0 +1,13 @@
+[
+  "api:ReadFile",
+  "api:RegOpenKeyExW",
+  "api:CloseHandle",
+  "api:connect",
+  "api:CreateFileW",
+  "api:GetTickCount",
+  "api:Sleep",
+  "api:VirtualAllocEx",
+  "api:WriteProcessMemory",
+  "api:CreateRemoteThread",
+  "api:send"
+]
