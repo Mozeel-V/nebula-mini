@@ -72,3 +72,4 @@ python src/eval/plot.py \
   --out_dir "$FIG_DIR"
 
 echo "Done. Figures in $FIG_DIR, results in $RESULTS_DIR"
+

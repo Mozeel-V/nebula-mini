@@ -15,6 +15,8 @@ It uses:
 - Insert, Genetic Algorithm (GA), and Saliency-guided adversarial attacks and retraining to test detector robustness
 - Visualization of attack success metrics
 - Automatic checkpointing, metric logging, and TorchScript export
+- Window-based evaluation with per-sample temporal plots and auto threshold tuning
+- Propagation risk analysis for repeated benign windows
 
 > Goal: Build a minimal, fully working malware behavior model pipeline that runs locally and supports adversarial ML experimentation and explainability. 
 
@@ -90,6 +92,43 @@ bash scripts/run_retrain.sh
 ```
 → merges adversarial + original data and fine-tunes the model
 
+
+## 🧮 Window-Level Evaluation and Robustness Analysis
+
+The evaluation now includes **sample-level window classification**, which better reflects real security conditions.
+
+Each trace is split into overlapping windows, all of which are classified individually.
+- For **goodware**, all windows should remain below the malware threshold.
+- For **malware**, at least one window should cross the threshold.
+
+Features:
+- Automatic threshold selection (maximizes sample-level F1)
+- Propagation analysis: flags benign windows that get high scores and appear in many samples
+- Plots for temporal behavior of model predictions:
+  - `goodware_time_series.png`
+  - `malware_before_time_series.png`
+  - `malware_after_time_series.png` after attacks
+- Summaries of per-sample metrics and risky windows:
+  - `results/window_eval/window_eval.json`
+
+Example:
+```bash
+python src/eval/window_eval.py \
+  --data_file data/processed/dataset.txt \
+  --ckpt checkpoints/best.pt \
+  --vocab checkpoints/vocab.json \
+  --window_unit event --events_per_window 32 --stride_events 8
+```
+
+Result:
+```bash
+[INFO] Loaded 200 samples
+[DEBUG] Malware max window scores min/med/max/mean = (0.34646424651145935, 0.3560921847820282, 0.3688918650150299, 0.35644629716873166)
+[DEBUG] Benign  max window scores min/med/max/mean = (0.3404248058795929, 0.35252609848976135, 0.3658621609210968, 0.35286047965288164)
+[INFO] Auto-picked threshold = 0.353  (best F1=0.691, tp=75, fp=42, fn=25)
+[RESULT] Sample-level summary: {'threshold': 0.3531578481197357, 'accuracy': 0.665, 'precision': 0.6410256410256355, 'recall': 0.7499999999999926, 'f1': 0.6912442396308331, 'tp': 75, 'fp': 42, 'tn': 58, 'fn': 25}
+```
+
 ## 📁 Directory Structure
 ```bash
 Nebula_Mini/
@@ -118,6 +157,7 @@ Nebula_Mini/
 │   ├── attacks/saliency_attack.py      # saliency-biased adversarial gen
 │   ├── eval/plot_results.py,plot.py    # for plotting the metrics
 │   ├── eval/metrics.py                 # TPR@FPR, AUC, F1                
+│   ├── eval/window_eval.py             # window-level evaluation, propagation, plots
 │   └── eval/explain.py                 # prints top tokens by attention & gradients (simple)
 │
 ├── scripts/                    # Directory containing bash scripts 
