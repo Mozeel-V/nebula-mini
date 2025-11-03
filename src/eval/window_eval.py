@@ -261,6 +261,29 @@ def main():
     json.dump(out, open(Path(args.out_dir)/"window_eval.json", "w"), indent=2)
     print(f"[INFO] Wrote {Path(args.out_dir)/'window_eval.json'}")
 
+    # ---- Generating per-sample time-series plots ----
+    all_plots_dir = Path(fig_dir) / "per_sample_window"
+    all_plots_dir.mkdir(parents=True, exist_ok=True)
+
+    print(f"[INFO] Generating time-series plots for {len(per_sample_scores)} samples...")
+
+    for sid, scores in per_sample_scores.items():
+        xs = list(range(len(scores)))
+        y = scores
+        label = labels[sid]
+        plt.figure(figsize=(8, 2.5))
+        plt.plot(xs, y, marker="o", linewidth=1.2, color="tab:red" if label == 1 else "tab:blue")
+        plt.axhline(thr, color="gray", linestyle="--", linewidth=0.8)
+        plt.ylim(-0.05, 1.05)
+        plt.xlabel("Window index")
+        plt.ylabel("Malware probability")
+        plt.title(f"Sample {sid} | Label: {'Malware' if label==1 else 'Benign'}")
+        plt.tight_layout()
+        plt.savefig(all_plots_dir / f"sample_{sid}.png", dpi=120)
+        plt.close()
+
+    print(f"[INFO] Saved {len(per_sample_scores)} individual plots to {all_plots_dir}")
+
     # ---- plotting: pick examples
     def pick_benign(per_sample_scores, labels, bound=0.3):
         for sid, sc in per_sample_scores.items():
@@ -302,14 +325,14 @@ def main():
     if ben_sid is not None:
         plot_series(per_sample_scores[ben_sid],
                     f"Goodware sample (sid={ben_sid})", "goodware_time_series.png", thr)
-        print(f"[INFO] Wrote {fig_dir}/goodware_time_series.png (sid={ben_sid})")
+        print(f"[INFO] Wrote {fig_dir}\\goodware_time_series.png (sid={ben_sid})")
     else:
         print("[WARN] No benign sample available for plotting")
 
     if mal_sid is not None:
         plot_series(per_sample_scores[mal_sid],
                     f"Malware sample (sid={mal_sid})", "malware_before_time_series.png", thr)
-        print(f"[INFO] Wrote {fig_dir}/malware_before_time_series.png (sid={mal_sid})")
+        print(f"[INFO] Wrote {fig_dir}\\malware_before_time_series.png (sid={mal_sid})")
     else:
         print("[WARN] No malware sample available for plotting")
 
