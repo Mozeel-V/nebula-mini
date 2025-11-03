@@ -93,41 +93,26 @@ bash scripts/run_retrain.sh
 → merges adversarial + original data and fine-tunes the model
 
 
-## 🧮 Window-Level Evaluation and Robustness Analysis
+### 🧩 Window-level Supervision and MIL Evaluation
 
-The evaluation now includes **sample-level window classification**, which better reflects real security conditions.
+To capture temporal behavior within traces, the pipeline was extended to include:
+- **Rule-based window labeling** (`make_window_dataset.py`) for pseudo-supervised learning.
+- **Window-level fine-tuning** (`train_window_supervised.py`) to identify malicious event bursts.
+- **Multiple Instance Learning (MIL)** (`train_mil.py`) to align with sample-level detection (a sample is malicious if any window is malicious).
+- **Time-series visualization** (`window_eval.py`) showing per-window malware probabilities before and after attacks.
+- Results and plots are saved in `results/figures/`, enabling temporal pattern inspection.
 
-Each trace is split into overlapping windows, all of which are classified individually.
-- For **goodware**, all windows should remain below the malware threshold.
-- For **malware**, at least one window should cross the threshold.
+These experiments aim to improve interpretability and robustness by linking trace dynamics to detection outcomes.
 
-Features:
-- Automatic threshold selection (maximizes sample-level F1)
-- Propagation analysis: flags benign windows that get high scores and appear in many samples
-- Plots for temporal behavior of model predictions:
-  - `goodware_time_series.png`
-  - `malware_before_time_series.png`
-  - `malware_after_time_series.png` after attacks
-- Summaries of per-sample metrics and risky windows:
-  - `results/window_eval/window_eval.json`
-
-Example:
-```bash
-python src/eval/window_eval.py \
-  --data_file data/processed/dataset.txt \
-  --ckpt checkpoints/best.pt \
-  --vocab checkpoints/vocab.json \
-  --window_unit event --events_per_window 32 --stride_events 8
-```
-
-Result:
+Example Result:
 ```bash
 [INFO] Loaded 200 samples
-[DEBUG] Malware max window scores min/med/max/mean = (0.34646424651145935, 0.3560921847820282, 0.3688918650150299, 0.35644629716873166)
-[DEBUG] Benign  max window scores min/med/max/mean = (0.3404248058795929, 0.35252609848976135, 0.3658621609210968, 0.35286047965288164)
-[INFO] Auto-picked threshold = 0.353  (best F1=0.691, tp=75, fp=42, fn=25)
-[RESULT] Sample-level summary: {'threshold': 0.3531578481197357, 'accuracy': 0.665, 'precision': 0.6410256410256355, 'recall': 0.7499999999999926, 'f1': 0.6912442396308331, 'tp': 75, 'fp': 42, 'tn': 58, 'fn': 25}
+[DEBUG] Malware max window scores min/med/max/mean = (0.8449975252151489, 0.8462614417076111, 0.8501846790313721, 0.8462317681312561)
+[DEBUG] Benign  max window scores min/med/max/mean = (0.8431179523468018, 0.8450426459312439, 0.8469246029853821, 0.8449537390470505)
+[INFO] Auto-picked threshold = 0.846  (best F1=0.813, tp=89, fp=30, fn=11)
+[RESULT] Sample-level summary: {'threshold': 0.8455071449279785, 'accuracy': 0.795, 'precision': 0.7478991596638593, 'recall': 0.8899999999999911, 'f1': 0.8127853881273501, 'tp': 89, 'fp': 30, 'tn': 70, 'fn': 11}
 ```
+
 
 ## 📁 Directory Structure
 ```bash
