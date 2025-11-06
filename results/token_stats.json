@@ -1,0 +1,1315 @@
+{
+  "N_ben": 100,
+  "N_mal": 100,
+  "min_freq": 5,
+  "tokens": [
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f180.tmp",
+      "f_ben": 15,
+      "f_mal": 6,
+      "score": 0.8266785731844681
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f20.tmp",
+      "f_ben": 15,
+      "f_mal": 6,
+      "score": 0.8266785731844681
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f65.tmp",
+      "f_ben": 19,
+      "f_mal": 9,
+      "score": 0.6931471805599454
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f176.tmp",
+      "f_ben": 16,
+      "f_mal": 8,
+      "score": 0.6359887667199968
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f3.tmp",
+      "f_ben": 14,
+      "f_mal": 7,
+      "score": 0.6286086594223741
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f41.tmp",
+      "f_ben": 21,
+      "f_mal": 11,
+      "score": 0.6061358035703157
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f137.tmp",
+      "f_ben": 19,
+      "f_mal": 10,
+      "score": 0.5978370007556206
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f69.tmp",
+      "f_ben": 19,
+      "f_mal": 10,
+      "score": 0.5978370007556206
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f44.tmp",
+      "f_ben": 18,
+      "f_mal": 10,
+      "score": 0.54654370636807
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f93.tmp",
+      "f_ben": 23,
+      "f_mal": 13,
+      "score": 0.5389965007326869
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f132.tmp",
+      "f_ben": 16,
+      "f_mal": 9,
+      "score": 0.5306282510621705
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f172.tmp",
+      "f_ben": 12,
+      "f_mal": 7,
+      "score": 0.485507815781701
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f86.tmp",
+      "f_ben": 20,
+      "f_mal": 12,
+      "score": 0.47957308026188605
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f14.tmp",
+      "f_ben": 18,
+      "f_mal": 11,
+      "score": 0.45953232937844035
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f51.tmp",
+      "f_ben": 18,
+      "f_mal": 11,
+      "score": 0.45953232937844035
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f34.tmp",
+      "f_ben": 18,
+      "f_mal": 11,
+      "score": 0.45953232937844035
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f30.tmp",
+      "f_ben": 13,
+      "f_mal": 8,
+      "score": 0.4418327522790393
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f122.tmp",
+      "f_ben": 16,
+      "f_mal": 10,
+      "score": 0.4353180712578457
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f171.tmp",
+      "f_ben": 16,
+      "f_mal": 10,
+      "score": 0.4353180712578457
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f149.tmp",
+      "f_ben": 16,
+      "f_mal": 10,
+      "score": 0.4353180712578457
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f124.tmp",
+      "f_ben": 19,
+      "f_mal": 12,
+      "score": 0.4307829160924541
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f114.tmp",
+      "f_ben": 17,
+      "f_mal": 11,
+      "score": 0.4054651081081646
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f35.tmp",
+      "f_ben": 14,
+      "f_mal": 9,
+      "score": 0.4054651081081644
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f31.tmp",
+      "f_ben": 18,
+      "f_mal": 12,
+      "score": 0.3794896217049035
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f188.tmp",
+      "f_ben": 18,
+      "f_mal": 12,
+      "score": 0.3794896217049035
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f147.tmp",
+      "f_ben": 18,
+      "f_mal": 12,
+      "score": 0.3794896217049035
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f184.tmp",
+      "f_ben": 18,
+      "f_mal": 12,
+      "score": 0.3794896217049035
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f38.tmp",
+      "f_ben": 15,
+      "f_mal": 10,
+      "score": 0.3746934494414109
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f55.tmp",
+      "f_ben": 15,
+      "f_mal": 10,
+      "score": 0.3746934494414109
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f144.tmp",
+      "f_ben": 12,
+      "f_mal": 8,
+      "score": 0.3677247801253176
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f160.tmp",
+      "f_ben": 22,
+      "f_mal": 15,
+      "score": 0.3629054936893683
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f94.tmp",
+      "f_ben": 19,
+      "f_mal": 13,
+      "score": 0.35667494393873245
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f1.tmp",
+      "f_ben": 19,
+      "f_mal": 13,
+      "score": 0.35667494393873245
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f186.tmp",
+      "f_ben": 16,
+      "f_mal": 11,
+      "score": 0.34830669426821603
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f135.tmp",
+      "f_ben": 17,
+      "f_mal": 12,
+      "score": 0.3254224004346278
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f56.tmp",
+      "f_ben": 17,
+      "f_mal": 12,
+      "score": 0.3254224004346278
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f126.tmp",
+      "f_ben": 14,
+      "f_mal": 10,
+      "score": 0.3101549283038396
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f182.tmp",
+      "f_ben": 14,
+      "f_mal": 10,
+      "score": 0.3101549283038396
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f141.tmp",
+      "f_ben": 18,
+      "f_mal": 13,
+      "score": 0.30538164955118186
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f179.tmp",
+      "f_ben": 19,
+      "f_mal": 14,
+      "score": 0.287682072451781
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f169.tmp",
+      "f_ben": 19,
+      "f_mal": 14,
+      "score": 0.287682072451781
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f71.tmp",
+      "f_ben": 19,
+      "f_mal": 14,
+      "score": 0.287682072451781
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f11.tmp",
+      "f_ben": 11,
+      "f_mal": 8,
+      "score": 0.2876820724517808
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f148.tmp",
+      "f_ben": 11,
+      "f_mal": 8,
+      "score": 0.2876820724517808
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f37.tmp",
+      "f_ben": 24,
+      "f_mal": 18,
+      "score": 0.2744368457017603
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f50.tmp",
+      "f_ben": 20,
+      "f_mal": 15,
+      "score": 0.27193371548364165
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f18.tmp",
+      "f_ben": 16,
+      "f_mal": 12,
+      "score": 0.2682639865946792
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f78.tmp",
+      "f_ben": 16,
+      "f_mal": 12,
+      "score": 0.2682639865946792
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f22.tmp",
+      "f_ben": 16,
+      "f_mal": 12,
+      "score": 0.2682639865946792
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f168.tmp",
+      "f_ben": 17,
+      "f_mal": 13,
+      "score": 0.2513144282809061
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f145.tmp",
+      "f_ben": 13,
+      "f_mal": 10,
+      "score": 0.24116205681688818
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f62.tmp",
+      "f_ben": 13,
+      "f_mal": 10,
+      "score": 0.24116205681688818
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f161.tmp",
+      "f_ben": 13,
+      "f_mal": 10,
+      "score": 0.24116205681688818
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f194.tmp",
+      "f_ben": 18,
+      "f_mal": 14,
+      "score": 0.23638877806423042
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f150.tmp",
+      "f_ben": 18,
+      "f_mal": 14,
+      "score": 0.23638877806423042
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f26.tmp",
+      "f_ben": 14,
+      "f_mal": 11,
+      "score": 0.22314355131420993
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f32.tmp",
+      "f_ben": 14,
+      "f_mal": 11,
+      "score": 0.22314355131420993
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f183.tmp",
+      "f_ben": 14,
+      "f_mal": 11,
+      "score": 0.22314355131420993
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f7.tmp",
+      "f_ben": 19,
+      "f_mal": 15,
+      "score": 0.2231435513142097
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f139.tmp",
+      "f_ben": 19,
+      "f_mal": 15,
+      "score": 0.2231435513142097
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f24.tmp",
+      "f_ben": 15,
+      "f_mal": 12,
+      "score": 0.2076393647782444
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f61.tmp",
+      "f_ben": 15,
+      "f_mal": 12,
+      "score": 0.2076393647782444
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f157.tmp",
+      "f_ben": 16,
+      "f_mal": 13,
+      "score": 0.19415601444095754
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f111.tmp",
+      "f_ben": 17,
+      "f_mal": 14,
+      "score": 0.18232155679395468
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f75.tmp",
+      "f_ben": 17,
+      "f_mal": 14,
+      "score": 0.18232155679395468
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f27.tmp",
+      "f_ben": 18,
+      "f_mal": 15,
+      "score": 0.17185025692665912
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f59.tmp",
+      "f_ben": 18,
+      "f_mal": 15,
+      "score": 0.17185025692665912
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f16.tmp",
+      "f_ben": 19,
+      "f_mal": 16,
+      "score": 0.1625189294977749
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f81.tmp",
+      "f_ben": 13,
+      "f_mal": 11,
+      "score": 0.1541506798272585
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f80.tmp",
+      "f_ben": 13,
+      "f_mal": 11,
+      "score": 0.1541506798272585
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f84.tmp",
+      "f_ben": 21,
+      "f_mal": 18,
+      "score": 0.14660347419187536
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f92.tmp",
+      "f_ben": 14,
+      "f_mal": 12,
+      "score": 0.1431008436406731
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f121.tmp",
+      "f_ben": 15,
+      "f_mal": 13,
+      "score": 0.13353139262452274
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f88.tmp",
+      "f_ben": 16,
+      "f_mal": 14,
+      "score": 0.1251631429540061
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f104.tmp",
+      "f_ben": 16,
+      "f_mal": 14,
+      "score": 0.1251631429540061
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f72.tmp",
+      "f_ben": 17,
+      "f_mal": 15,
+      "score": 0.11778303565638337
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f170.tmp",
+      "f_ben": 18,
+      "f_mal": 16,
+      "score": 0.11122563511022432
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f87.tmp",
+      "f_ben": 18,
+      "f_mal": 16,
+      "score": 0.11122563511022432
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f28.tmp",
+      "f_ben": 19,
+      "f_mal": 17,
+      "score": 0.10536051565782634
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f131.tmp",
+      "f_ben": 19,
+      "f_mal": 17,
+      "score": 0.10536051565782634
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f119.tmp",
+      "f_ben": 19,
+      "f_mal": 17,
+      "score": 0.10536051565782634
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f185.tmp",
+      "f_ben": 19,
+      "f_mal": 17,
+      "score": 0.10536051565782634
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f120.tmp",
+      "f_ben": 9,
+      "f_mal": 8,
+      "score": 0.10536051565782634
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f116.tmp",
+      "f_ben": 11,
+      "f_mal": 10,
+      "score": 0.08701137698962969
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f167.tmp",
+      "f_ben": 11,
+      "f_mal": 10,
+      "score": 0.08701137698962969
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f29.tmp",
+      "f_ben": 12,
+      "f_mal": 11,
+      "score": 0.08004270767353683
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f36.tmp",
+      "f_ben": 12,
+      "f_mal": 11,
+      "score": 0.08004270767353683
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f187.tmp",
+      "f_ben": 12,
+      "f_mal": 11,
+      "score": 0.08004270767353683
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f67.tmp",
+      "f_ben": 13,
+      "f_mal": 12,
+      "score": 0.07410797215372167
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f118.tmp",
+      "f_ben": 13,
+      "f_mal": 12,
+      "score": 0.07410797215372167
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f68.tmp",
+      "f_ben": 15,
+      "f_mal": 14,
+      "score": 0.0645385211375713
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f23.tmp",
+      "f_ben": 15,
+      "f_mal": 14,
+      "score": 0.0645385211375713
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f199.tmp",
+      "f_ben": 15,
+      "f_mal": 14,
+      "score": 0.0645385211375713
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f190.tmp",
+      "f_ben": 16,
+      "f_mal": 15,
+      "score": 0.0606246218164348
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f13.tmp",
+      "f_ben": 16,
+      "f_mal": 15,
+      "score": 0.0606246218164348
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f151.tmp",
+      "f_ben": 16,
+      "f_mal": 15,
+      "score": 0.0606246218164348
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f103.tmp",
+      "f_ben": 17,
+      "f_mal": 16,
+      "score": 0.057158413839948574
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f96.tmp",
+      "f_ben": 17,
+      "f_mal": 16,
+      "score": 0.057158413839948574
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f90.tmp",
+      "f_ben": 18,
+      "f_mal": 17,
+      "score": 0.054067221270275745
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f117.tmp",
+      "f_ben": 21,
+      "f_mal": 20,
+      "score": 0.04652001563489283
+    },
+    {
+      "tok": "api:ReadFile",
+      "f_ben": 2945,
+      "f_mal": 2859,
+      "score": 0.029626693208677057
+    },
+    {
+      "tok": "api:CloseHandle",
+      "f_ben": 2911,
+      "f_mal": 2860,
+      "score": 0.017668916266466272
+    },
+    {
+      "tok": "api:GetTickCount",
+      "f_ben": 2864,
+      "f_mal": 2825,
+      "score": 0.013706065904366849
+    },
+    {
+      "tok": "args:path=HKEY_LOCAL_MACHINE\\\\Software\\\\Microsoft",
+      "f_ben": 2907,
+      "f_mal": 2875,
+      "score": 0.011065119812472268
+    },
+    {
+      "tok": "api:RegOpenKeyExW",
+      "f_ben": 2907,
+      "f_mal": 2875,
+      "score": 0.011065119812472268
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f140.tmp",
+      "f_ben": 10,
+      "f_mal": 10,
+      "score": 0.0
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f76.tmp",
+      "f_ben": 17,
+      "f_mal": 17,
+      "score": 0.0
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f173.tmp",
+      "f_ben": 17,
+      "f_mal": 17,
+      "score": 0.0
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f110.tmp",
+      "f_ben": 13,
+      "f_mal": 13,
+      "score": 0.0
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f60.tmp",
+      "f_ben": 16,
+      "f_mal": 16,
+      "score": 0.0
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f125.tmp",
+      "f_ben": 14,
+      "f_mal": 14,
+      "score": 0.0
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f143.tmp",
+      "f_ben": 11,
+      "f_mal": 11,
+      "score": 0.0
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f130.tmp",
+      "f_ben": 13,
+      "f_mal": 13,
+      "score": 0.0
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f155.tmp",
+      "f_ben": 19,
+      "f_mal": 19,
+      "score": 0.0
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f0.tmp",
+      "f_ben": 18,
+      "f_mal": 18,
+      "score": 0.0
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f158.tmp",
+      "f_ben": 14,
+      "f_mal": 14,
+      "score": 0.0
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f63.tmp",
+      "f_ben": 12,
+      "f_mal": 12,
+      "score": 0.0
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f196.tmp",
+      "f_ben": 14,
+      "f_mal": 14,
+      "score": 0.0
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f57.tmp",
+      "f_ben": 10,
+      "f_mal": 10,
+      "score": 0.0
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f127.tmp",
+      "f_ben": 12,
+      "f_mal": 12,
+      "score": 0.0
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f146.tmp",
+      "f_ben": 10,
+      "f_mal": 10,
+      "score": 0.0
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f39.tmp",
+      "f_ben": 12,
+      "f_mal": 12,
+      "score": 0.0
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f105.tmp",
+      "f_ben": 13,
+      "f_mal": 13,
+      "score": 0.0
+    },
+    {
+      "tok": "api:Sleep",
+      "f_ben": 2801,
+      "f_mal": 2831,
+      "score": -0.01064972791665797
+    },
+    {
+      "tok": "args:ms=100",
+      "f_ben": 2801,
+      "f_mal": 2831,
+      "score": -0.01064972791665797
+    },
+    {
+      "tok": "args:ip=<ip_loopback>",
+      "f_ben": 2777,
+      "f_mal": 2851,
+      "score": -0.02628925821989725
+    },
+    {
+      "tok": "args:path=<drive>\\\\Users\\\\Alice\\\\Documents\\\\doc.txt",
+      "f_ben": 2795,
+      "f_mal": 2899,
+      "score": -0.03652091262086454
+    },
+    {
+      "tok": "api:CreateFileW",
+      "f_ben": 2795,
+      "f_mal": 2899,
+      "score": -0.03652091262086454
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f10.tmp",
+      "f_ben": 17,
+      "f_mal": 18,
+      "score": -0.054067221270275745
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f178.tmp",
+      "f_ben": 17,
+      "f_mal": 18,
+      "score": -0.054067221270275745
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f115.tmp",
+      "f_ben": 16,
+      "f_mal": 17,
+      "score": -0.057158413839948574
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f15.tmp",
+      "f_ben": 16,
+      "f_mal": 17,
+      "score": -0.057158413839948574
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f46.tmp",
+      "f_ben": 15,
+      "f_mal": 16,
+      "score": -0.0606246218164348
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f163.tmp",
+      "f_ben": 15,
+      "f_mal": 16,
+      "score": -0.0606246218164348
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f82.tmp",
+      "f_ben": 15,
+      "f_mal": 16,
+      "score": -0.0606246218164348
+    },
+    {
+      "tok": "api:connect",
+      "f_ben": 2777,
+      "f_mal": 2951,
+      "score": -0.06075166240607377
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f5.tmp",
+      "f_ben": 14,
+      "f_mal": 15,
+      "score": -0.0645385211375713
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f45.tmp",
+      "f_ben": 14,
+      "f_mal": 15,
+      "score": -0.0645385211375713
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f6.tmp",
+      "f_ben": 14,
+      "f_mal": 15,
+      "score": -0.0645385211375713
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f73.tmp",
+      "f_ben": 14,
+      "f_mal": 15,
+      "score": -0.0645385211375713
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f198.tmp",
+      "f_ben": 13,
+      "f_mal": 14,
+      "score": -0.06899287148695143
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f166.tmp",
+      "f_ben": 13,
+      "f_mal": 14,
+      "score": -0.06899287148695143
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f40.tmp",
+      "f_ben": 13,
+      "f_mal": 14,
+      "score": -0.06899287148695143
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f177.tmp",
+      "f_ben": 12,
+      "f_mal": 13,
+      "score": -0.07410797215372167
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f128.tmp",
+      "f_ben": 18,
+      "f_mal": 20,
+      "score": -0.10008345855698253
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f91.tmp",
+      "f_ben": 18,
+      "f_mal": 20,
+      "score": -0.10008345855698253
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f97.tmp",
+      "f_ben": 16,
+      "f_mal": 18,
+      "score": -0.11122563511022432
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f48.tmp",
+      "f_ben": 16,
+      "f_mal": 18,
+      "score": -0.11122563511022432
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f101.tmp",
+      "f_ben": 16,
+      "f_mal": 18,
+      "score": -0.11122563511022432
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f159.tmp",
+      "f_ben": 15,
+      "f_mal": 17,
+      "score": -0.11778303565638337
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f49.tmp",
+      "f_ben": 13,
+      "f_mal": 15,
+      "score": -0.13353139262452274
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f106.tmp",
+      "f_ben": 13,
+      "f_mal": 15,
+      "score": -0.13353139262452274
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f138.tmp",
+      "f_ben": 13,
+      "f_mal": 15,
+      "score": -0.13353139262452274
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f17.tmp",
+      "f_ben": 12,
+      "f_mal": 14,
+      "score": -0.1431008436406731
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f112.tmp",
+      "f_ben": 12,
+      "f_mal": 14,
+      "score": -0.1431008436406731
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f136.tmp",
+      "f_ben": 12,
+      "f_mal": 14,
+      "score": -0.1431008436406731
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f102.tmp",
+      "f_ben": 18,
+      "f_mal": 21,
+      "score": -0.14660347419187536
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f165.tmp",
+      "f_ben": 11,
+      "f_mal": 13,
+      "score": -0.1541506798272585
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f33.tmp",
+      "f_ben": 16,
+      "f_mal": 19,
+      "score": -0.1625189294977749
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f42.tmp",
+      "f_ben": 16,
+      "f_mal": 19,
+      "score": -0.1625189294977749
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f79.tmp",
+      "f_ben": 10,
+      "f_mal": 12,
+      "score": -0.1670540846631665
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f85.tmp",
+      "f_ben": 15,
+      "f_mal": 18,
+      "score": -0.17185025692665912
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f154.tmp",
+      "f_ben": 15,
+      "f_mal": 18,
+      "score": -0.17185025692665912
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f192.tmp",
+      "f_ben": 14,
+      "f_mal": 17,
+      "score": -0.18232155679395468
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f83.tmp",
+      "f_ben": 14,
+      "f_mal": 17,
+      "score": -0.18232155679395468
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f175.tmp",
+      "f_ben": 13,
+      "f_mal": 16,
+      "score": -0.19415601444095754
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f153.tmp",
+      "f_ben": 13,
+      "f_mal": 16,
+      "score": -0.19415601444095754
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f66.tmp",
+      "f_ben": 17,
+      "f_mal": 21,
+      "score": -0.2006706954621511
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f19.tmp",
+      "f_ben": 12,
+      "f_mal": 15,
+      "score": -0.2076393647782444
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f193.tmp",
+      "f_ben": 12,
+      "f_mal": 15,
+      "score": -0.2076393647782444
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f89.tmp",
+      "f_ben": 12,
+      "f_mal": 15,
+      "score": -0.2076393647782444
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f98.tmp",
+      "f_ben": 12,
+      "f_mal": 15,
+      "score": -0.2076393647782444
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f162.tmp",
+      "f_ben": 12,
+      "f_mal": 15,
+      "score": -0.2076393647782444
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f189.tmp",
+      "f_ben": 15,
+      "f_mal": 19,
+      "score": -0.2231435513142097
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f123.tmp",
+      "f_ben": 11,
+      "f_mal": 14,
+      "score": -0.22314355131420993
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f4.tmp",
+      "f_ben": 14,
+      "f_mal": 18,
+      "score": -0.23638877806423042
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f109.tmp",
+      "f_ben": 14,
+      "f_mal": 18,
+      "score": -0.23638877806423042
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f107.tmp",
+      "f_ben": 17,
+      "f_mal": 22,
+      "score": -0.24512245803298494
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f12.tmp",
+      "f_ben": 13,
+      "f_mal": 17,
+      "score": -0.2513144282809061
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f129.tmp",
+      "f_ben": 9,
+      "f_mal": 12,
+      "score": -0.2623642644674913
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f133.tmp",
+      "f_ben": 12,
+      "f_mal": 16,
+      "score": -0.2682639865946792
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f152.tmp",
+      "f_ben": 12,
+      "f_mal": 16,
+      "score": -0.2682639865946792
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f191.tmp",
+      "f_ben": 15,
+      "f_mal": 20,
+      "score": -0.27193371548364165
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f21.tmp",
+      "f_ben": 14,
+      "f_mal": 19,
+      "score": -0.287682072451781
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f77.tmp",
+      "f_ben": 14,
+      "f_mal": 19,
+      "score": -0.287682072451781
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f156.tmp",
+      "f_ben": 13,
+      "f_mal": 18,
+      "score": -0.30538164955118186
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f58.tmp",
+      "f_ben": 15,
+      "f_mal": 21,
+      "score": -0.3184537311185345
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f142.tmp",
+      "f_ben": 12,
+      "f_mal": 17,
+      "score": -0.3254224004346278
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f64.tmp",
+      "f_ben": 12,
+      "f_mal": 17,
+      "score": -0.3254224004346278
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f74.tmp",
+      "f_ben": 12,
+      "f_mal": 17,
+      "score": -0.3254224004346278
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f100.tmp",
+      "f_ben": 12,
+      "f_mal": 17,
+      "score": -0.3254224004346278
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f43.tmp",
+      "f_ben": 11,
+      "f_mal": 16,
+      "score": -0.34830669426821603
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f174.tmp",
+      "f_ben": 11,
+      "f_mal": 16,
+      "score": -0.34830669426821603
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f181.tmp",
+      "f_ben": 11,
+      "f_mal": 16,
+      "score": -0.34830669426821603
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f95.tmp",
+      "f_ben": 12,
+      "f_mal": 18,
+      "score": -0.3794896217049035
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f53.tmp",
+      "f_ben": 13,
+      "f_mal": 20,
+      "score": -0.4054651081081644
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f52.tmp",
+      "f_ben": 13,
+      "f_mal": 20,
+      "score": -0.4054651081081644
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f47.tmp",
+      "f_ben": 11,
+      "f_mal": 17,
+      "score": -0.4054651081081646
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f164.tmp",
+      "f_ben": 11,
+      "f_mal": 17,
+      "score": -0.4054651081081646
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f113.tmp",
+      "f_ben": 11,
+      "f_mal": 17,
+      "score": -0.4054651081081646
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f134.tmp",
+      "f_ben": 15,
+      "f_mal": 24,
+      "score": -0.4462871026284194
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f197.tmp",
+      "f_ben": 9,
+      "f_mal": 15,
+      "score": -0.4700036292457357
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f2.tmp",
+      "f_ben": 11,
+      "f_mal": 19,
+      "score": -0.5108256237659909
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f9.tmp",
+      "f_ben": 7,
+      "f_mal": 13,
+      "score": -0.5596157879354227
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f99.tmp",
+      "f_ben": 7,
+      "f_mal": 13,
+      "score": -0.5596157879354227
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f54.tmp",
+      "f_ben": 8,
+      "f_mal": 15,
+      "score": -0.575364144903562
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f108.tmp",
+      "f_ben": 10,
+      "f_mal": 19,
+      "score": -0.5978370007556206
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f8.tmp",
+      "f_ben": 8,
+      "f_mal": 18,
+      "score": -0.7472144018302211
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f70.tmp",
+      "f_ben": 7,
+      "f_mal": 16,
+      "score": -0.7537718023763802
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f195.tmp",
+      "f_ben": 12,
+      "f_mal": 28,
+      "score": -0.802346472524937
+    },
+    {
+      "tok": "args:path=<drive>\\Windows\\Temp\\f25.tmp",
+      "f_ben": 6,
+      "f_mal": 20,
+      "score": -1.0986122886681098
+    },
+    {
+      "tok": "api:VirtualAllocEx",
+      "f_ben": 0,
+      "f_mal": 100,
+      "score": -4.61512051684126
+    },
+    {
+      "tok": "api:CreateRemoteThread",
+      "f_ben": 0,
+      "f_mal": 100,
+      "score": -4.61512051684126
+    },
+    {
+      "tok": "api:WriteProcessMemory",
+      "f_ben": 0,
+      "f_mal": 100,
+      "score": -4.61512051684126
+    },
+    {
+      "tok": "args:ip=<ip_public>",
+      "f_ben": 0,
+      "f_mal": 100,
+      "score": -4.61512051684126
+    },
+    {
+      "tok": "args:domain=<domain>",
+      "f_ben": 0,
+      "f_mal": 100,
+      "score": -4.61512051684126
+    },
+    {
+      "tok": "api:send",
+      "f_ben": 0,
+      "f_mal": 100,
+      "score": -4.61512051684126
+    },
+    {
+      "tok": "args:pid=1000",
+      "f_ben": 0,
+      "f_mal": 300,
+      "score": -5.707110264748876
+    }
+  ]
+}

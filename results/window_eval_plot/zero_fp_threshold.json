@@ -1,0 +1,15 @@
+{
+  "eval_json": "results\\window_eval_plot\\window_eval.json",
+  "threshold": 0.34440063102340696,
+  "eps": 1e-06,
+  "tp": 9,
+  "fp": 0,
+  "tn": 100,
+  "fn": 91,
+  "accuracy": 0.545,
+  "precision": 1.0,
+  "recall": 0.09,
+  "malware_detection_rate": 0.09,
+  "benign_count": 100,
+  "malware_count": 100
+}

@@ -89,3 +89,6 @@ class NebulaTiny(nn.Module):
     def forward(self, input_ids):
         emb = self.embed(input_ids)    # [B,T,D]
         return self.forward_from_embeddings(emb)
+
+    def get_embedding_weight(self) -> torch.Tensor:
+        return self.embed.weight
