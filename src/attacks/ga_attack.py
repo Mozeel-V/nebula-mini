@@ -28,6 +28,8 @@ def main():
             adv.append((i,y,best))
     Path(args.out_file).parent.mkdir(parents=True, exist_ok=True)
     with open(args.out_file, "w") as f:
-        f.write("\\n".join([f\"{i}\\t{y}\\t{t}\" for (i,y,t) in adv]))
-    print(\"Wrote\", len(adv), \"adv traces to\", args.out_file)
-if __name__ == \"__main__\": main()
+        f.write("\\n".join([f"{i}\\t{y}\\t{t}" for (i,y,t) in adv]))
+    print("Wrote", len(adv), "adv traces to", args.out_file)
+
+if __name__ == "__main__": 
+    main()
